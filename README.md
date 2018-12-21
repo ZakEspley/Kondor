@@ -30,7 +30,7 @@ flask db migrate
 flask db upgrade
 ```
 
-The database should now be created with the proper tables.
+The tables should now be created in the kondor database.
 
 Finally just run:
 
