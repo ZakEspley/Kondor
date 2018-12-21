@@ -1,0 +1,20 @@
+{% extends "site/base.html" %}
+
+{% block content %}
+    <div class="col-sm-12">
+        {% for hole in holes %}
+            <div class="row">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Hole {{ hole.holeNumber }}</h5>
+                        <p class="card-text">
+                            <p>Par {{ hole.par }}</p>
+                            <p> Blues: {{ hole.blueLength }} yds</p>
+                            <p> Whites: {{ hole.whiteLength }} yds</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
