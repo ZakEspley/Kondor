@@ -1,6 +1,6 @@
 # Kondor
 
-To get started download python 3.x create a virtual environment and clone this repo.
+To get started download python 3.x and then create a virtual environment. Activate it and clone this repo.
 
 Then run:
 
